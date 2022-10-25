@@ -1,0 +1,118 @@
+C Course Outline.
+
+Identifiers:
+    Constant:
+        Any information is constant.
+            Primary:
+                Integer.
+                Real.
+                Character.
+            Secondary:
+                Array.
+                String.
+                Pointer.
+                Union.
+                Structure.
+                Enumerator.
+
+    Variable:
+        Name of Memory Location to Store Data.
+            int a = 5;
+
+    Keyword:
+        There are 32 Keywords (Predefined Words) in C Language.
+            auto	break	case	char
+            const	continue  default	do
+            double	else	enum	extern
+            float	for	    goto	if
+            int	    long	register	return
+            short	signed	sizeof	static
+            struct	switch	typedef	union
+            unsigned	void	volatile	while
+
+Instructions:
+    Type Declaration Instruction.
+    Arithmetic Instructions:
+        Manuplation of Data.
+            Operands.
+            Operators.
+                Unary Operators.
+                Arithmetic Operators.
+                Bitwise Operators.
+                Relational Operators.
+                Logical Operators.
+                Conditional Operators.
+                Assignment Operators.  
+    Decision Control instructions:
+        Conditional Operators.
+            If(condition){if condition true} else{if condition false}.
+            Switch (case){case i:{if this case is selected} case i:{if this case is selected}}.
+    Looping Instructions:
+        for(initialization,termination condition,update){}.
+        while(condition){}.
+        do{do something} while(until condition is true).
+
+Data Types:
+    Type	                Size (bytes)	                Format Specifier
+    int	                    at least 2, usually 4	        %d, %i
+    char	                1	                            %c
+    float	                4	                            %f
+    double	                8	                            %lf
+    short int	            2 usually	                    %hd
+    unsigned int	        at least 2, usually 4	        %u
+    long int	            at least 4, usually 8	        %ld, %li
+    long long int	        at least 8	                    %lld, %lli
+    unsigned long int	    at least 4	                    %lu
+    unsigned long long int	at least 8	                    %llu
+    signed char	            1	                            %c
+    unsigned char	        1	                            %c
+    long double	            at least 10, usually 12 or 16	%Lf
+
+Escape Sequences and Formating Functions:
+    Sequence	Meaning
+    \a	        Alarm or Beep
+    \b	        Backspace
+    \f	        Form Feed
+    \n	        New Line
+    \r	        Carriage Return
+    \t	        Tab (Horizontal)
+    \v	        Vertical Tab
+    \\	        Backslash
+    \'	        Single Quote
+    \"	        Double Quote
+    \?	        Question Mark
+    \nnn	    octal number
+    \xhh	    hexadecimal number
+    \0	        Null
+
+    gotoxy();
+    getch();
+    clrscr();
+
+I/O:
+    printf("Display Text.");
+    scanf("format specifier", variable address);
+
+Functions:
+Recursion:
+Strings:
+Arrays:
+Pointers:
+Structure:
+Dynamic Memory Allocation:
+Union:
+Enumerator:
+Typedef:
+Preprocessing:
+File Handling:  
+Storage Classes:
+Bit Fields in C:
+Command Line Arguments:
+Graphics:
+Const:
+Wild Pointer:
+NULL Pointer:
+Void Pointer:
+Dangling Pointer:
+Function Pointer:
+
